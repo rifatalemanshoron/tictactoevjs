@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Audiowide"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tic Tac Toe</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Tic-Tac-Toe</h1>
+      <div>
+        <p id="userCont">You: <span id="user"></span></p>
+        <p id="oppNameCont">Opponent: <span id="oppName"></span></p>
+      </div>
+      <br />
+      <p id="valueCont">You are playing as <spna id="value"></spna></p>
+      <br />
+      <p id="whosTurn">X's Turn</p>
+      <div>
+        <p id="enterName">Enter your Name:</p>
+        <input type="text" placeholder="Name" id="name" />
+      </div>
+
+      <button id="find">Search for Player</button>
+      <img
+        src="https://media.tenor.com/G7LfW0O5qb8AAAAi/loading-gif.gif"
+        id="loading"
+        alt="loading"
+      />
+
+      <div id="bigCont">
+        <div id="cont">
+          <button class="btn" id="btn1"></button>
+          <button class="btn" id="btn2"></button>
+          <button class="btn" id="btn3"></button>
+          <button class="btn" id="btn4"></button>
+          <button class="btn" id="btn5"></button>
+          <button class="btn" id="btn6"></button>
+          <button class="btn" id="btn7"></button>
+          <button class="btn" id="btn8"></button>
+          <button class="btn" id="btn9"></button>
+        </div>
+      </div>
+      <h3 class="credit">Designed By Shoron</h3>
+    </div>
+
+  </body>
+  <script src="/socket.io/socket.io.js"></script>
+  
+  <script src="./script.js"></script>
+</html>
